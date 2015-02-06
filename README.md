@@ -24,13 +24,23 @@ npm install
 ```
 ### Usage
 
-#### Setup:
+```javascript
+  var strings, format, formattedString;
+
+  strings = require('strings');
+
+  format = 'this is test {testGiven} for a showing how to use {name}';
+  formattedString = strings.format(format, {
+    testGiven: 'stringFormatter',
+    name: 'format'
+  });
+```
 
 ### Tests
 
 Simply run:
 
-```
+```bash
 gulp karma
 ```
 
