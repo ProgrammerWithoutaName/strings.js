@@ -21,8 +21,7 @@ module.exports = {
       template: src + '/_bundleTemplate.js',
       outputName: 'strings.js',
       require: [],
-      external: [],
-      standalone: 'strings'
+      external: []
     }]
   },
   production: {
