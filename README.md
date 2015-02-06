@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/fusionalliance/strings.js.png?label=ready&title=Ready)](https://waffle.io/fusionalliance/strings.js)
 # strings.js
 
 strings handling library for JavaScript
