@@ -1,4 +1,4 @@
-[![Stories in Ready](https://badge.waffle.io/fusionalliance/strings.js.png?label=ready&title=Ready)](https://waffle.io/fusionalliance/strings.js)
+[![Stories in Ready](https://badge.waffle.io/fusionalliance/strings.js.png?label=ready&title=Ready)](https://waffle.io/fusionalliance/strings.js) [![Build Status](https://travis-ci.org/fusionalliance/strings.js.svg?branch=master)](https://travis-ci.org/fusionalliance/strings.js)
 # strings.js
 
 strings handling library for JavaScript
