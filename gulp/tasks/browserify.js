@@ -42,6 +42,10 @@ browserifyTask = function(callback, devMode) {
         .pipe(derequire([{
             from: 'require',
             to: '_strRq_' // has to be same length as the from string.
+          },
+          {
+            from: 'module',
+            to: '_stMd_'
           }]))
         .pipe(gulp.dest(bundleConfig.dest))
         .on('end', reportFinished)

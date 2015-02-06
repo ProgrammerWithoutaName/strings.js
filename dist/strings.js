@@ -16,16 +16,16 @@
   // located in gulp/config.js under "browserify"
   itemToExport = 1;
 
-  _strRq_ = (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof _strRq_=="function"&&_strRq_;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof _strRq_=="function"&&_strRq_;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(_strRq_,module,exports){
+  _strRq_ = (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof _strRq_=="function"&&_strRq_;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof _strRq_=="function"&&_strRq_;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(_strRq_,_stMd_,exports){
 'use strict';
 
 var formatting = _strRq_('./utilities/formatting');
 
-module.exports = {
+_stMd_.exports = {
   format: formatting.format
 };
 
-},{"./utilities/formatting":2}],2:[function(_strRq_,module,exports){
+},{"./utilities/formatting":2}],2:[function(_strRq_,_stMd_,exports){
 'use strict';
 
 function format(stringToFormat, values) {
@@ -34,7 +34,7 @@ function format(stringToFormat, values) {
   });
 }
 
-module.exports = {
+_stMd_.exports = {
   format: format
 };
 
